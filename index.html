@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My|Profile</title>
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="w-20">
+        <svg
+          fill="#8200db"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 512 512"
+          xml:space="preserve"
+          class="w-full"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <g>
+              <g>
+                <g>
+                  <path
+                    d="M330.639,308.46c-0.671-0.437-1.374-0.823-2.1-1.173c-21.584-11.722-46.297-18.386-72.539-18.386 c-84.08,0-152.485,68.404-152.485,152.485v51.882c0,10.345,8.387,18.732,18.732,18.732h267.508 c10.345,0,18.732-8.387,18.732-18.732v-51.882C408.485,384.405,377.062,334.631,330.639,308.46z M301.698,474.537H140.979v-33.15 c0-63.423,51.598-115.021,115.021-115.021c16.23,0,31.683,3.385,45.698,9.478V474.537z M371.022,474.537h-31.861V362.003 c19.728,20.659,31.861,48.63,31.861,79.384V474.537z"
+                  ></path>
+                  <circle cx="265.541" cy="438.372" r="13.198"></circle>
+                  <path
+                    d="M159.622,37.451v103.388c-4.482,11.722-6.773,24.063-6.773,36.755c0,56.878,46.274,103.152,103.152,103.152 s103.152-46.274,103.152-103.152c0-12.694-2.292-25.034-6.773-36.755V37.451c10.228-0.136,18.481-8.459,18.481-18.719 C370.86,8.387,362.473,0,352.128,0H159.873c-10.345,0-18.732,8.387-18.732,18.732C141.142,28.992,149.395,37.315,159.622,37.451z M197.087,37.466h117.829v88.223H197.087V37.466z M191.898,163.151h128.205c1.054,4.702,1.586,9.528,1.586,14.442 c0,36.221-29.467,65.688-65.688,65.688s-65.688-29.467-65.688-65.688C190.312,172.679,190.844,167.852,191.898,163.151z"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </a>
+      <button id="toggle" class="w-10 lg:hidden cursor-pointer">
+        <svg
+          viewBox="0 0 24 24"
+          id="meteor-icon-kit__regular-bars-square"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M3 0H21C22.6569 0 24 1.34315 24 3V21C24 22.6569 22.6569 24 21 24H3C1.34315 24 0 22.6569 0 21V3C0 1.34315 1.34315 0 3 0ZM3 2C2.44772 2 2 2.44772 2 3V21C2 21.5523 2.44772 22 3 22H21C21.5523 22 22 21.5523 22 21V3C22 2.44772 21.5523 2 21 2H3ZM7 13C6.44772 13 6 12.5523 6 12C6 11.4477 6.44772 11 7 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H7ZM7 9C6.44772 9 6 8.55229 6 8C6 7.44772 6.44772 7 7 7H17C17.5523 7 18 7.44772 18 8C18 8.55229 17.5523 9 17 9H7ZM7 17C6.44772 17 6 16.5523 6 16C6 15.4477 6.44772 15 7 15H17C17.5523 15 18 15.4477 18 16C18 16.5523 17.5523 17 17 17H7Z"
+              fill="#758CA3"
+            ></path>
+          </g>
+        </svg>
+      </button>
+
+      <ul class="hidden">
+        <li><a href="#education">education</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#profile">profile</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#client">client</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <section
+      class="h-screen flex justify-center"
+      style="
+        background: linear-gradient(#8200db5a, #8200db5a), url(img/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="@container w-3xl text-center text-white place-content-center">
+        <h1 class="font-extrabold text-7xl my-3 uppercase">
+          hi <span class="text-purple-700">,</span> i am <br />
+          browny <br />
+          star <span class="text-purple-700">.</span>
+        </h1>
+        <p class="uppercase text-xl my-3">ui/ux designer and web developer</p>
+        <a
+          href="#"
+          class="inline-block bg-purple-700 p-3 px-5 rounded font-bold capitalize"
+          >download resume</a
+        >
+      </div>
+    </section>
+
+    <script>
+      const toggle = document.querySelector("#toggle");
+      const ul = document.querySelector("nav ul");
+      toggle.onclick = function () {
+        ul.classList.toggle("hidden");
+      };
+    </script>
+  </body>
+</html>
