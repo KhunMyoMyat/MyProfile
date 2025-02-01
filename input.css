@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+nav {
+  @apply flex flex-wrap justify-between items-center  @container py-2 px-3 bg-white border;
+}
+
+nav ul {
+  @apply w-full lg:w-auto mt-5 lg:mt-0 lg:block;
+}
+
+nav ul li {
+  @apply lg:inline-block;
+}
+
+nav ul li a {
+  @apply block p-3 mx-1 uppercase text-gray-600 hover:text-purple-700;
+}
