@@ -590,6 +590,9 @@
   .isolation-auto {
     isolation: auto;
   }
+  .z-100 {
+    z-index: 100;
+  }
   .z-auto {
     z-index: auto;
   }
@@ -803,18 +806,6 @@
   .h-3 {
     height: calc(var(--spacing) * 3);
   }
-  .h-16 {
-    height: calc(var(--spacing) * 16);
-  }
-  .h-40 {
-    height: calc(var(--spacing) * 40);
-  }
-  .h-44 {
-    height: calc(var(--spacing) * 44);
-  }
-  .h-72 {
-    height: calc(var(--spacing) * 72);
-  }
   .h-full {
     height: 100%;
   }
@@ -865,9 +856,6 @@
   }
   .w-\[90\%\] {
     width: 90%;
-  }
-  .w-\[590\%\] {
-    width: 590%;
   }
   .w-full {
     width: 100%;
