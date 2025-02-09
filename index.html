@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My|Profile</title>
 
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
     <!-- tailwind css -->
     <link rel="stylesheet" href="output.css" />
   </head>
@@ -677,6 +683,79 @@
       </div>
     </section>
 
+    <!-- contact -->
+    <section id="contact" class="bg-blue-50">
+      <h1 class="title">contact</h1>
+      <div class="container mx-auto py-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <form action="" class="p-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                placeholder="Name *"
+                class="bg-white p-4 rounded"
+              />
+              <input
+                type="email"
+                placeholder="Email *"
+                class="bg-white p-4 rounded"
+              />
+              <input
+                type="text"
+                placeholder="Subject"
+                class="sm:col-span-2 bg-white p-4 rounded"
+              />
+              <textarea
+                name=""
+                id=""
+                placeholder="Message"
+                class="sm:col-span-2 bg-white p-2 rounded"
+              ></textarea>
+              <input
+                type="submit"
+                value="Submit"
+                class="sm:col-span-2 bg-purple-700 text-white p-2 rounded"
+              />
+            </div>
+          </form>
+
+          <div class="p-8">
+            <div class="mb-4">
+              <h2 class="font-bold text-xl">Browny Star</h2>
+              <p class="text-neutral-500">UI/UX Designer</p>
+            </div>
+            <div class="mb-4">
+              <h2 class="font-bold text-xl">Phone</h2>
+              <p class="text-neutral-500">8-2355-135</p>
+            </div>
+            <div class="mb-4">
+              <h2 class="font-bold text-xl">Email</h2>
+              <p class="text-neutral-500">browny@info.com</p>
+            </div>
+            <div class="mb-4">
+              <h2 class="font-bold text-xl">Website</h2>
+              <p class="text-neutral-500">www.brownsine.com</p>
+            </div>
+
+            <div class="mb-4">
+              <a href="#" class="inline-block p-3">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="#" class="inline-block p-3">
+                <i class="bi bi-facebook"></i> </a
+              ><a href="#" class="inline-block p-3">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-20 text-center">
+      <p>&copy; copyright Browny. Design and developed by Browny.</p>
+    </footer>
     <script>
       const toggle = document.querySelector("#toggle");
       const ul = document.querySelector("nav ul");
